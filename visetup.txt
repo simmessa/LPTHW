@@ -1,3 +1,12 @@
 #This is not a bash script! do this in your VIM
+	
+#Tabs are 4 spaces long, but still tabs...
 :set tabstop=4
+:set softtabstop=0 noexpandtab
 :set shiftwidth=4
+
+#Tabs are literally made of 4 spaces:
+:set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+:set autoindent
+
+#Make it permanent by putting it inside ~/.vimrc
