@@ -1,0 +1,3 @@
+#This is not a bash script! do this in your VIM
+:set tabstop=4
+:set shiftwidth=4
